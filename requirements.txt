@@ -1,0 +1,28 @@
+# Core dependencies
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+python-multipart==0.0.12
+python-dotenv==1.0.1
+
+# LlamaIndex and related packages
+llama-index==0.11.14
+llama-index-embeddings-openai==0.2.5
+llama-index-llms-openai==0.2.9
+llama-index-vector-stores-chroma==0.2.0
+llama-index-readers-file==0.2.2
+
+# ChromaDB
+chromadb==0.5.7
+
+# Document processing
+pandas==2.2.3
+openpyxl==3.1.5
+nltk==3.9.1
+
+# Utilities
+pydantic==2.9.2
+pydantic-settings==2.5.2
+aiofiles==24.1.0
+
+# Type checking and validation
+typing-extensions==4.12.2
