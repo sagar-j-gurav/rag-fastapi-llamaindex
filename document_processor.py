@@ -269,5 +269,5 @@ def create_text_splitter(document_type: DocumentType) -> SentenceSplitter:
         chunk_overlap=config["chunk_overlap"],
         separator=" ",
         paragraph_separator="\n\n",
-        secondary_chunking_regex="[.!?]\s+"
+        secondary_chunking_regex=r"[.!?]\s+"
     )
